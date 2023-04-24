@@ -39,5 +39,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 The #Database file is there to simulate a local json server.
 To run this sever 
-``` npx json-server --watch database/db.json --port 8000 ```
+
+```bash
+npx json-server --watch database/db.json --port 8000 
+```
+
 It will give you the endpoint to the json server
