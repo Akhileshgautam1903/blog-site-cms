@@ -33,3 +33,12 @@ body {
 .nav{
   max-width: 720px;
 }
+
+@layer base {
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
+}

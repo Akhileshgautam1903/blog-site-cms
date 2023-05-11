@@ -1,0 +1,41 @@
+{
+  "blogs":
+  [
+    {
+      "id": "1",
+      "_id": {
+        "$oid": "644ab6450fa51103762e0469"
+      },
+      "postId": "c0b49a81-9e90-4b21-acf0-6c11281d63d7",
+      "title": "Integrating a generic CMS",
+      "author": "Srijan Nayak",
+      "image": "https://images.unsplash.com/photo-1560472355-109703aa3edc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "content": "<h2>What is a generic CMS?</h2><p>Like seriously, what does generic even mean?</p>",
+      "__v": 0
+    },
+    {
+      "id": "2",
+      "_id": {
+        "$oid": "644ab6990fa51103762e046e"
+      },
+      "postId": "007e97ae-67f9-4535-ab2e-6752affa7987",
+      "title": "Another test post",
+      "author": "Test Author 2",
+      "image": "https://images.unsplash.com/photo-1682402178953-f2cb484d4024?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "content": "<h2>Random content</h2><p>Trust me, this is random.</p>",
+      "__v": 0
+    },
+    {
+      "id": "3",
+      "_id": {
+        "$oid": "645207af570b3f2200b53a4c"
+      },
+      "postId": "6460f147-c2d0-483a-a95e-edf62ee87ef7",
+      "title": "Random Post",
+      "author": "Random Author",
+      "image": "https://images.unsplash.com/photo-1682336017038-de632a4ec2b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "content": "<h2>Random content</h2><p>More random <strong>stuff</strong></p>",
+      "__v": 0
+    }
+  ]
+}
