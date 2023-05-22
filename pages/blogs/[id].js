@@ -6,7 +6,7 @@ export const getStaticPaths = async() =>{
 
     const paths = data.map(blog => {
         return {
-            params: { id: blog.id.toString() }
+            params: { id: blog.postId }
         }
     });
 

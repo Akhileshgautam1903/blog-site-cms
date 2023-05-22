@@ -16,7 +16,7 @@ export default function Blogs({ blogs }) {
     return(
         <div>
             {blogs.map(blog => (
-                <Link href={`/blogs/${ blog.id }`} key={ blog.id } >
+                <Link href={`/blogs/${ blog.postId }`} key={ blog.postId } >
                     <div className="px-6 py-5 shadow-md my-2 rounded-sm border-s-8 border-s-white dark:border-s-slate-900 dark:hover:border-s-blue-500 hover:border-s-blue-500">
                         <div className="md:flex">
                             <img className="rounded-md md:mx-3 my-2 mx-0 md:h-28 md:w-40 w-full" alt="thumbnail" src={ blog.image } height={800} width={800}/>
