@@ -39,8 +39,8 @@ export default function Details ({ blog }) {
     const router = useRouter();
 
     return(
-        <div style={{backgroundColor: `${blog.backgroundColor}`}}>
-            <div className="w-2/5 mx-auto py-6">
+        <div className="min-h-screen" style={{backgroundColor: `${blog.backgroundColor}`}}>
+            <div className="w-full mx-auto py-6 sm:w-2/5">
                 <h1 className="text-6xl font-bold dark:text-white" style={{color: `${blog.titleColor}`}}>{ blog.title }</h1>
                 <p className="text-zinc-500  my-3">Author - { blog.author }</p>
                 <img className="my-2 rounded-sm" alt="blog-img" src={ blog.image } width={720} height={800} />
