@@ -7,7 +7,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="navbar text-4xl font-bold my-6 pb-6 border-b-2 dark:border-zinc-600 text-sky-500 dark:text-sky-400 flex justify-between">
+        <nav className="navbar text-4xl font-bold py-6 pb-6 border-b-2 w-2/5 mx-auto dark:border-zinc-600 text-sky-500 dark:text-sky-400 flex justify-between">
             <Link href={"/blogs"} className="">The Blogs.</Link>
             <button onClick={onClick} className="btn" type="button" id="headlessui-listbox-button-4" aria-haspopup="true" aria-expanded="false" data-headlessui-state="" aria-labelledby="headlessui-listbox-label-3 headlessui-listbox-button-4">
                 <span className="dark:hidden">

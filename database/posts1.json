@@ -1,0 +1,58 @@
+{
+  "blogs":
+  [
+    {
+      "id": 1,
+      "_id": {
+        "$oid": "645a3b1a087e81c400c40529"
+      },
+      "postId": "55bbfbd0-7bc6-4c23-aee1-660ccda0b400",
+      "title": "Random Post",
+      "author": "Random Author",
+      "image": "https://images.unsplash.com/photo-1560472355-109703aa3edc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "content": "<h2>Random content</h2><p>This is some <strong>random</strong> content.</p>",
+      "__v": 0,
+      "backgroundColor": "#ffffff",
+      "titleColor": "#000000"
+    },{
+      "id": 2,
+      "_id": {
+        "$oid": "645a3b5d087e81c400c4052e"
+      },
+      "postId": "ae685b9b-6361-431f-9c7b-a073fc618efe",
+      "title": "Another Random Post",
+      "author": "Random Author",
+      "image": "https://images.unsplash.com/photo-1682336017038-de632a4ec2b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "content": "<h2>More random content</h2><p>Just like <span style=\"background-color: rgb(235, 214, 255);\">before</span>, this is more <strong>random</strong> content.</p>",
+      "__v": 0,
+      "backgroundColor": "#ffffff",
+      "titleColor": "#000000"
+    },{
+      "id": 3,
+      "_id": {
+        "$oid": "646c5a6dd67e0027f89ec800"
+      },
+      "postId": "15041251-9375-4f53-819c-0459bc1bfe4f",
+      "title": "Yet Another Random Post",
+      "author": "Another Random Author",
+      "image": "https://images.unsplash.com/photo-1684553300741-cd864dbaeba2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1475&q=80",
+      "content": "<h2>Random stuff 1</h2><p>More <span style=\"background-color: rgb(235, 214, 255); color: rgb(61, 20, 102);\">random</span> content for you to <strong>consume.</strong></p>",
+      "__v": 0,
+      "backgroundColor": "#36BFB1",
+      "titleColor": "#0D0D0D"
+    },{
+      "id": 4,
+      "_id": {
+        "$oid": "646e4f29a4ef42408e8f7e3a"
+      },
+      "postId": "68efb4cd-6d07-4250-af78-3db25b14e1ec",
+      "title": "Stuff made here",
+      "author": "Dan Richard",
+      "image": "https://images.unsplash.com/photo-1684553300741-cd864dbaeba2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1475&q=80",
+      "content": "<p>Some random content to <strong style=\"color: rgb(153, 51, 255);\">satisfy</strong> your needs.</p>",
+      "titleColor": "#744fa1",
+      "backgroundColor": "#d9d3e9",
+      "__v": 0
+    }
+  ]
+}
