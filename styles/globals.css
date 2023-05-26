@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.ql-editor{
+  padding: 0 !important;
+}
+
 /* 
 :root {
   --foreground-rgb: 0, 0, 0;
